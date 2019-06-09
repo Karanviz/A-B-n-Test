@@ -1,2 +1,2 @@
-# A-B-n-Test
-T-test for two or more proportions and sample size test
+# A-B-n-Test-
+T-Test for two or more proportions &amp; Sample Size test
