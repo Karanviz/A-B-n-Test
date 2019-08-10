@@ -1,5 +1,5 @@
 ---
-title: "Root_ABn_Test"
+title: "XYZ_ABn_Test"
 author: "Karan Bansal, Monil Shah"
 date: "April 12, 2019"
 output: html_document
@@ -7,7 +7,7 @@ output: html_document
 
 ##Introduction
 
-Root Insurance ran an A/B/N Test on its customers to test the psychology of the customers with reference to time and incentive. All 4 types of experiments ran by Root had a 30-day window regardless of their time entering in the test. The experiments or variants of the test were as below:
+XYZ Insurance ran an A/B/N Test on its customers to test the psychology of the customers with reference to time and incentive. All 4 types of experiments ran by XYZ had a 30-day window regardless of their time entering in the test. The experiments or variants of the test were as below:
 
 - Exp. 0hr allowed referral activity after 0 hours with an incentive of $50
 
@@ -137,7 +137,7 @@ Bucketed Time - 6th May 2018
 Reference account created - 9th June 2018
 
 
-Here the referral created an account 30 days after they received the reference from a Root customer which exceeded the 30-day window and counts as an account not created within that experiment. Therefore, we filtered these data points from our dataset.
+Here the referral created an account 30 days after they received the reference from a XYZ customer which exceeded the 30-day window and counts as an account not created within that experiment. Therefore, we filtered these data points from our dataset.
 
 Similarly,
 
@@ -148,7 +148,7 @@ Bucketed Time - 6th May 2018
 reference account created - 9th June 2018
 
 
-Here the referral created an account within the 30 day window after they received the reference from a Root customer which qualifies as an account created. Therefore, these instances were included in the datset.
+Here the referral created an account within the 30 day window after they received the reference from a XYZ customer which qualifies as an account created. Therefore, these instances were included in the datset.
 
 ```{r include=FALSE}
 #Cleaning the data
@@ -401,4 +401,4 @@ Although a control in the randomness of choosing the customers was observed, the
 
 
 ##Conclusion
-**To conclude the results of the test, Root should collect more data on the experimental(0hr, 48hr, 168hr) version of the test at the same time keep running the controlled (OFF) version until concrete results are proven.**
+**To conclude the results of the test, XYZ should collect more data on the experimental(0hr, 48hr, 168hr) version of the test at the same time keep running the controlled (OFF) version until concrete results are proven.**
